@@ -7,23 +7,32 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
   </head>
   <body>
-    <h1>Bootstrap</h1>
 
     <!--Zakladni container-->
     <div class="container" style="border:1px solid red">
+        <!--Nadpis - text center-->
+        <h1 class="text-center">Bootstrap</h1>
         <div class="row" style="border: 1px solid green">
-          <div class="col" style="border: 1px solid blue">
+            <!--col-1 => zabira 1/12 radku (row)
+            m-3 => nastaveni marginu
+            -->
+            <div class="col-1 m-3" style="border: 1px solid blue">
             Column
-          </div>
-          <div class="col" style="border: 1px solid brown">
-              <!--Zakladni tabulka-->
+            </div>
+            <div class="col m-3" style="border: 1px solid brown">
             Column
-          </div>
-          <div class="col" style="border: 1px solid orange">
+            </div>
+            <div class="col-3 m-3" style="border: 1px solid orange">
             Column
-          </div>
+            </div>
         </div>
-      </div>
+        <!--novy rade-->
+        <div class="row pt-5" style="border: 1px solid green">
+            <div class="col m-3 text-center" style="border: 1px solid blue">
+              Column
+            </div>
+        </div>
+    </div>
 
     
 
