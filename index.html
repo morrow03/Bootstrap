@@ -8,28 +8,44 @@
   </head>
   <body>
 
-    <!--Zakladni container-->
-    <div class="container" style="border:1px solid red">
-        <!--Nadpis - text center-->
+    <div class="container" style="border: 1px solid red">
         <h1 class="text-center">Bootstrap</h1>
-        <div class="row" style="border: 1px solid green">
-            <!--col-1 => zabira 1/12 radku (row)
-            m-3 => nastaveni marginu
-            -->
-            <div class="col-1 m-3" style="border: 1px solid blue">
-            Column
-            </div>
-            <div class="col m-3" style="border: 1px solid brown">
-            Column
-            </div>
-            <div class="col-3 m-3" style="border: 1px solid orange">
-            Column
-            </div>
-        </div>
-        <!--novy rade-->
-        <div class="row pt-5" style="border: 1px solid green">
-            <div class="col m-3 text-center" style="border: 1px solid blue">
-              Column
+        <div class="row">
+            <div class="col" style="border: 1px solid blue">
+            
+                <!--Pridani tabulky-->
+                <div class="table-responsive">
+                <table class="table">
+                    <thead>
+                      <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Jmeno</th>
+                        <th scope="col">Prijmeni</th>
+                        <th scope="col">Oblibena barva</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">1</th>
+                        <td>Lukas</td>
+                        <td>Kolouch</td>
+                        <td>modra</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">2</th>
+                        <td>Michal</td>
+                        <td>Prepsl</td>
+                        <td>zelena</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">3</th>
+                        <td>Filip</td>
+                        <td>Dvorak</td>
+                        <td>cerna</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
             </div>
         </div>
     </div>
